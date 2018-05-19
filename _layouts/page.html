@@ -1,42 +1,34 @@
 ---
-layout: compress
+layout: default
 ---
-<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
-  {% include head.html %}
-
-  <body class="site">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
-    {% include header.html %}
-
-    <div class="hero--small">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ page.title }}</h1>
-      </div>
-    </div>
-    <main class="site__content">
-
-      <div class="container">
-        <div class="page-content">
-
-          {{ content }}
-
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}
+            <span class="subheading">{{ page.description }}</span>
+          {% endif %}
         </div>
       </div>
+    </div>
+  </div>
+</header>
 
-    </main>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
 
-    {% include footer.html %}
+      {{ content }}
 
-  </body>
-
-</html>
+    </div>
+  </div>
+</div>
