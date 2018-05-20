@@ -112,11 +112,11 @@ friends: [
     #     href: "https://developer.apple.com/"
     # }
       {
-        title:'IFE',
-        href:'https://ife.baidu.com'
-      }
+        title:"IFE",
+        href:"https://ife.baidu.com"
+      },
       {
-        title:'imooc',
-        href:'https://www.imooc.com'
+        title:"imooc",
+        href:"https://www.imooc.com"
       }
 ]
