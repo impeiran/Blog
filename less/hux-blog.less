@@ -2,6 +2,7 @@
 @import "mixins.less";
 @import "sidebar.less";
 @import "side-catalog.less";
+@import "snackbar.less";
 
 // Global Components
 
@@ -56,7 +57,7 @@ article{
 	overflow-x : hidden;
 }
 blockquote {
-	color: @gray;
+	color: gray;
 	font-style: italic;
 	font-size: 0.95em;
 	margin: 20px 0 20px;
@@ -124,7 +125,9 @@ pre code{
 
 // In the post.
 .post-container{
-	a{
+	a{	
+		// display: inline-block;
+		// safari has bugs on word-break on inline elements.
 		color:#337ab7;
 		// different to @brand-primary
 		&:hover,
