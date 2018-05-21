@@ -52,7 +52,7 @@ tags:
 
 ### 3.使用absolute定位和transform
 
-```CSS
+```css
 <div class="parent">
   		<div class="child"></div>
 </div>
@@ -68,7 +68,7 @@ tags:
 ```
 不想影响父元素时，可使用如下方案：
 
-```CSS
+```css
 <div></div>
 
 div{
@@ -84,7 +84,7 @@ div{
 
 ### 4.使用flex盒子与margin
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -103,7 +103,7 @@ div{
 
 ### 5.使用flex和justify-content
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -120,7 +120,7 @@ div{
 
 ### 1.使用table-cell+vertical-align
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -135,7 +135,7 @@ div{
 
 ### 2.使用absolute和transform
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -152,7 +152,7 @@ div{
 
 不想影响父元素时，可使用如下方案：
 
-```CSS
+```css
 <div></div>
 
 div{
@@ -166,7 +166,7 @@ div{
 
 ### 3.使用flex和align-items
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -185,7 +185,7 @@ div{
 
 ### 1.使用inline-block+text-align+table-cell+vertical-align
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -204,7 +204,7 @@ div{
 
 ### 2.使用flex+justify-content+align-items
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -220,7 +220,7 @@ IE8以下不兼容。
 
 ### 3.使用position和transform
 
-```CSS
+```css
 <div class="parent">
   	<div class="child"></div>
 </div>
@@ -238,7 +238,7 @@ IE8以下不兼容。
 
 不想影响父元素时，可使用如下方案：
 
-```CSS
+```css
 <div></div>
 
 div{
