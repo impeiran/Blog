@@ -2,7 +2,7 @@
 layout:     post
 title:      CSS布局 - 居中
 subtitle:   谈谈几种用于居中的方法。
-date:       2018-05-21 
+date:       2018-05-20 
 author:     Chaser
 header-img: 
 catalog: true
@@ -231,7 +231,7 @@ IE8以下不兼容。
 .child{
     position: absolute;
     top: 50%;
-	left:50%;
+    left:50%;
     transform: translate(-50%,-50%);
 }
 ```
@@ -244,7 +244,7 @@ IE8以下不兼容。
 div{
     position: relative;
     top: 50%;
-	left:50%;
+    left:50%;
     transform: translate(-50%.-50%);
 }
 ```
