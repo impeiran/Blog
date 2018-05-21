@@ -17,8 +17,7 @@ tags:
 
 1.最常见的应该使用 margin: 0 auto;
 
-```css
-
+```
 <div class="parent">
   	<div class="child"></div>
 </div>
