@@ -30,7 +30,7 @@ url称为统一资源定位符，例如`http://www.baidu.com/`就是一个url。
 浏览器要解释这个域名，首先会查看**本地DNS缓存**是否存在这个域名对应的IP地址。  
 如果没有就会从查看电脑上的**host文件**是否存在域名对应的IP规则。  
 若再没有，则会发送DNS请求到**本地DNS服务器或其他DNS服务器**获取对应的IP地址（此过程会采用递归或者迭代的方式进行）。
-![](http://mmbiz.qpic.cn/mmbiz_jpg/NVvB3l3e9aGS2KZjibulcKSx4K7gmiaDR3oxyoc5ry7GRAjL3XEmxkuAvcOuTo2eV6RtM23EubzKcxat8LOnjibjA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![](https://img-blog.csdn.net/20170916221342139?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdHk5ODc2NTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## 3.客户端与服务器端建立TCP连接（TCP三次握手）
 > 浏览器与远程 Web 服务器通过 TCP 三次握手协商来建立一个 TCP/IP 连接。该握手包括一个同步报文，一个同步-应答报文和一个应答报文，这三个报文在 浏览器和服务器之间传递。该握手首先由客户端尝试建立起通信，而后服务器应答并接受客户端的请求，最后由客户端发出该请求已经被接受的报文。  
