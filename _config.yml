@@ -11,7 +11,7 @@ github_repo: "https://github.com/cccccchaser/cccccchaser.github.io.git" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Keep your love for the world."
+sidebar-about-description: "Keep your love for the world.\n WeChat:peiran0502"
 sidebar-avatar: /img/about-chaser.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
