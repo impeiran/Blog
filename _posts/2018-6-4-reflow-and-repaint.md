@@ -6,8 +6,8 @@ date:       2018-6-4
 author:     Chaser
 header-img: 
 catalog: true
-tags
-    - html&css
+tags:
+    - html/css
 ---
 
 ### 浏览器渲染页面  
