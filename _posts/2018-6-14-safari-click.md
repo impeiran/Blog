@@ -5,10 +5,11 @@ subtitle:   点击不触发事件
 date:       2018-06-14 
 author:     Chaser
 header-img: 
-catalog: true
+catalog: 
 tags:
     - safari
     - javascript
+
 
 ---
 
@@ -34,6 +35,4 @@ $('body').click(function(e){
 
 4. 把元素换成其他不受bug特性影响的元素，比如`a`,`button`等。
 
-
-
-[Safari Mobile click bug](https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile)]
+[Safari Mobile click bug](https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile)
