@@ -23,7 +23,7 @@ for(let index = 1 ; index < 3 ; index++){
     li.innerText = 'item' + index;
     list.appendChild(li);
 }
-```  
+```
 
 初学者很容易会写成这样的代码，这样结果就是进行了三次DOM节点添加操作，会造成三次回流和重绘。  
 
@@ -52,8 +52,9 @@ for(let index = 1 ; index < 3 ; index++){
     frag.appendChild(li);
 }
 list.appendChild(frag);
-```    
+```
 
 `DocumentFragement`是一组子节点的“虚拟存储”，并且它没有父标签。可以把它想象成一个“仓库”节点，但这个节点不会成为DOM Tree的一部分。把`DocumentFragement`类型节点作为参数传给`appendChild()`或者`insertBefore()`等方法时，实际上只会将文档片段的所有子节点添加到相应位置上。  
 
 所以在上述例子中，`frag`只起到了一个暂存仓库的作用，最终添加到`ul`标签里的，也只是三个`li`节点。
+
