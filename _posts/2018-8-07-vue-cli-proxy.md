@@ -8,6 +8,7 @@ header-img:
 catalog: true
 tags:
     - js
+    - vue
 ---
 
 ## 前言
