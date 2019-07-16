@@ -16,7 +16,7 @@ tags:
 
 首先透过[@swnow_in](<https://www.jianshu.com/u/2fc7f2b59f75>)的一张图来谈一下自己的理解
 
-![img](https://upload-images.jianshu.io/upload_images/5262488-291da39f66dbc28a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/5262488-291da39f66dbc28a.png)
 
 
 
