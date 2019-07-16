@@ -1,14 +1,14 @@
 {
-    "name": "Chaser-blog",
+    "name": "chaser",
     "title": "Chaser Blog",
     "author": "BY <chaser_neteasy@163.com>",
     "version": "1.7.0",
-    "homepage": "http://cccccchaser.github.io",
+    "homepage": "http://impeiran.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cccccchaser/cccccchaser.github.io"
+        "url": "https://github.com/impeiran/impeiran.github.io"
     },
-    "bugs": "https://github.com/cccccchaser/cccccchaser.github.io/issues",
+    "bugs": "https://github.com/impeiran/impeiran.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
