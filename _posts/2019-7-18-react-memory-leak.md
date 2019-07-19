@@ -8,7 +8,6 @@ header-img:
 tags:
     - react
 	- react-hooks
-    - 内存泄漏
 ---
 
 > 做react开发很多时候会遇到这么一个问题：
