@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      React-Hooks组件卸载内存泄漏
+title:      React-Hooks卸载内存泄漏
 subtitle:   组件unmount后的setState引起问题
 date:       2019-7-18
 author:     Chaser
