@@ -3,12 +3,12 @@
     "title": "Chaser Blog",
     "author": "BY <chaser_neteasy@163.com>",
     "version": "1.7.0",
-    "homepage": "http://impeiran.github.io",
+    "homepage": "http://impeiran.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/impeiran/impeiran.github.io"
+        "url": "https://github.com/impeiran/Blog"
     },
-    "bugs": "https://github.com/impeiran/impeiran.github.io/issues",
+    "bugs": "https://github.com/impeiran/Blog/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
