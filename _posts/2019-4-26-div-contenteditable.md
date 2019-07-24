@@ -97,7 +97,7 @@ export default {
 
 所以后来方案改了，用了autosize + textarea的方案去实现。代码如下：
 
-```javascript
+```vue
 <template>
   <div class="text-area-wrapper">
     <textarea
@@ -116,7 +116,6 @@ export default {
   name: 'TextareaAutosize',
 
   props: {
-
     onlyNum: {
       type: [Boolean],
       default: false
@@ -167,10 +166,7 @@ export default {
 
   mounted () {
     autosize(this.$refs.textarea)
-  },
+  }
 }
 </script>
 ```
-
-
-
