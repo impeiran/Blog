@@ -1,2 +1,2 @@
-git pull
+git pull --rebase
 jekyll build
