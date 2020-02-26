@@ -1,8 +1,9 @@
-# Chaser Blog
+## blog
 
-此博客主要参考[Hux](https://github.com/Huxpro/huxpro.github.io) 和 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)，非常感谢这两位博主。
+> 由于此前利用Hexo搭建的博客效果不是很好，也增加了维护成本。（代码已有备份到backup2020分支）
+>
+> 故截至2020.02，已决定转向issue形式记录。
 
-阉割掉了部分感觉用不到的功能（评论功能、留言功能），或许以后有这需求会再自行添加。
+- [模拟实现new、bind、call和apply](../issues/1)
+- [观察者模式VS发布订阅模式](../issues/2)
 
-欢迎查看与folk~
-[Chaser Blog](http://impeiran.com)
