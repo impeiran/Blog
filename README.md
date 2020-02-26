@@ -4,6 +4,6 @@
 >
 > 故截至2020.02，已决定转向issue形式记录。
 
-- [模拟实现new、bind、call和apply](issues/1)
-- [观察者模式VS发布订阅模式](issues/2)
+- [模拟实现new、bind、call和apply](https://github.com/impeiran/Blog/issues/1)
+- [观察者模式VS发布订阅模式](https://github.com/impeiran/Blog/issues/2)
 
