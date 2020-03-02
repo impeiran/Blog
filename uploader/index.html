@@ -50,6 +50,7 @@
       mounted() {
         this.uploader = new Uploader({
           url: 'http://localhost:3000/upload',
+          accept: '.jpeg,.png,.jpg,.bmg,.gif',
           multiple: true,
           autoUpload: true,
           data: { name: 'test' }
