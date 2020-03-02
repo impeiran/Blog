@@ -6,4 +6,4 @@
 
 - [模拟实现new、bind、call和apply](https://github.com/impeiran/Blog/issues/1)
 - [观察者模式VS发布订阅模式](https://github.com/impeiran/Blog/issues/2)
-
+- [从设计到实现一个Uploader基础类](https://github.com/impeiran/Blog/tree/master/uploader)
