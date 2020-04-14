@@ -6,6 +6,7 @@
 
 - [模拟实现new、bind、call和apply](https://github.com/impeiran/Blog/issues/1)
 - [模拟实现instanceof并谈其原理](https://github.com/impeiran/Blog/issues/5)
+- [模拟实现Promise(A+规范)](https://github.com/impeiran/Blog/tree/master/promise/promise.js)
 
 #### 理论 / 原理
 
