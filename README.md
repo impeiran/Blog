@@ -11,7 +11,7 @@
 #### 理论 / 原理
 
 - [浏览器输入URL后发生什么（详细整理）](https://github.com/impeiran/Blog/issues/3)
-- [Webpack打包流程构建原理 ](https://github.com/impeiran/Blog/issues/4)
+- [Webpack打包流程构建原理 ](https://github.com/impeiran/Blog/issues/6)
 
 #### 设计模式
 
