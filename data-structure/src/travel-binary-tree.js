@@ -50,6 +50,7 @@ const inOrderTravel = function (tree, callback = noop) { // 迭代法
     tree = current.right
   }
 }
+
 const inOrderTravelRecurse = function (tree, callback = noop) { // 递归
   if (!tree) return
 
@@ -88,6 +89,7 @@ const tailOrderTravel = function (tree, callback = noop) {
   }
 
 }
+
 const tailOrderTravelRecurse = function (tree, callback = noop) { //递归
   if (!tree) return
 
