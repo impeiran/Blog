@@ -22,6 +22,7 @@
 #### 数据结构与算法
 
 - [二叉树遍历：前/中/后/层次遍历](https://github.com/impeiran/Blog/blob/master/data-structure/src/travel-binary-tree.js)
+- [字符串匹配：KMP](https://github.com/impeiran/Blog/blob/master/data-structure/src/kmp.js)
 
 #### 设计模式
 
