@@ -16,7 +16,7 @@
 #### 实践 / 业务
 
 - [从设计到实现一个Uploader基础类](https://github.com/impeiran/Blog/tree/master/uploader)
-- [实现cacheRequest()，相同资源ajax只发一次请求](https://github.com/impeiran/Blog/tree/master/cacheRequest)
+- [实现cacheRequest()，相同资源ajax只发一次请求](https://github.com/impeiran/Blog/tree/master/cache-request)
 - [谈谈H5中的audio的播放问题](https://github.com/impeiran/Blog/issues/4)
 
 #### 数据结构与算法
@@ -25,4 +25,5 @@
 
 #### 设计模式
 
+- [单例模式](https://github.com/impeiran/Blog/issues/7)
 - [观察者模式VS发布订阅模式](https://github.com/impeiran/Blog/issues/2)
