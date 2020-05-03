@@ -11,7 +11,8 @@
 #### 理论 / 原理
 
 - [浏览器输入URL后发生什么（详细整理）](https://github.com/impeiran/Blog/issues/3)
-- [Webpack打包流程构建原理 ](https://github.com/impeiran/Blog/issues/6)
+- [Webpack打包流程构建原理](https://github.com/impeiran/Blog/issues/6)
+- [vue2.x 响应式原理及依赖收集的简单实现](https://github.com/impeiran/Blog/issues/8)
 
 #### 实践 / 业务
 

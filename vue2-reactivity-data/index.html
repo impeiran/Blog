@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>计数器：{{counter}}</div>
+      <div>当前时间戳：{{currentDate}}</div>
+    </div>
+
+    <button id="counter">增加</button>
+    <button id="timer">打印时间</button>
+  </body>
+
+  <script src="./watcher.js"></script>
+  <script src="./observe.js"></script>
+  <script src="./vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data () {
+        return {
+          counter: 1,
+          currentDate: Date.now()
+        }
+      }
+    })
+
+    const $ = sel => document.querySelector(sel)
+
+    $('#counter').onclick = () => {
+      app.counter++
+    }
+
+    $('#timer').onclick = () => {
+      app.currentDate = Date.now()
+    }
+  </script>
+</html>
