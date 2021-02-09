@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./axios.min.js"></script>
+  <script src="./cacheRequest.js"></script>
+</head>
+<body>
+  <button id="multi-success">并发成功请求</button>
+  <button id="multi-error">并发失败请求</button>
+  <button id="single">单个cache成功请求</button>
+  <script>
+    const goRequest = url => {
+      const div = document.createElement('div')
+
+      return cacheRequest(url).then(({ data }) => {
+        div.innerText = data
+      }).catch((err) => {
+        div.innerText = 'error'
+        div.style = 'color: red;'
+      }).finally(() => {
+        document.body.appendChild(div)
+      })
+    };
+    
+    // 点击发送并发请求（成功的处理）
+    document.querySelector('#multi-success').onclick = () => {
+      Promise.all([
+        goRequest('/success'), goRequest('/success'), goRequest('/success')
+      ])
+    }
+    // 点击发送并发请求失败的处理
+    document.querySelector('#multi-error').onclick = () => {
+      Promise.all([
+        goRequest('/error'), goRequest('/error'), goRequest('/error')
+      ])
+    }
+    document.querySelector('#single').onclick = () => goRequest('/success');
+  </script>
+</body>
+</html>
