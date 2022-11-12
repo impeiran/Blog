@@ -1,9 +1,9 @@
 ## blog
 
-> 记录各种原理体会，代码实践，部分代码已用Jest进行单测
+> 记录各种原理体会，代码实践=
 
 #### 原生 Javascript
-
+- [浏览器的事件循环与微任务，摘自 MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide)
 - [模拟实现new、bind、call和apply](https://github.com/impeiran/Blog/issues/1)
 - [模拟实现instanceof并谈其原理](https://github.com/impeiran/Blog/issues/5)
 - [模拟实现Promise(A+规范)](https://github.com/impeiran/Blog/tree/master/promise/promise.js)
