@@ -29,3 +29,7 @@
 
 - [单例模式](https://github.com/impeiran/Blog/issues/7)
 - [观察者模式VS发布订阅模式](https://github.com/impeiran/Blog/issues/2)
+
+#### 工具资源
+
+- [漫画风格的在线画图站点 - https://excalidraw.com/](https://excalidraw.com/)
